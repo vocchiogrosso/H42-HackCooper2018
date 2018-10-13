@@ -1,0 +1,159 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+
+.NavBar {
+    height:10%;
+    position: absolute;
+    width:100%;
+    
+}
+
+    .NBT {
+        background-color: lightgray;
+        font-size:42px;
+        position: absolute;
+        padding-top: 1%;
+        padding-bottom: -1%;
+        width:25%;
+        height:100%;
+        top:0;
+    }
+
+        #NBT1 {
+            left:0%;
+        }
+
+        #NBT2 {
+            left:25%;
+        }
+        
+        #NBT3 {
+            left:50%;
+        }
+
+        #NBT4 {
+            left:75%;
+        }
+
+    #NBT1:hover {
+        opacity:0.8;
+    }
+    #NBT2:hover {
+        opacity:0.8;
+    }
+    #NBT3:hover {
+        opacity:0.8;
+    }
+    #NBT4:hover {
+        opacity:0.8;
+    }
+
+    #NavBar {
+        border-bottom: 1px solid black;
+        background-color: gray;
+        top:0%;
+        z-index: 2
+    }
+
+.Screen {
+    height: 100%;
+    left:0%;
+    position: absolute;
+    width: 100%;
+}
+
+.Footer {
+    height:15%;
+    left:0%;
+    position: absolute;
+    width:100%;
+}
+
+    #ScreenA {
+        background-image: url("../../_Content/1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y:25%;
+        top:0%;
+    }
+
+    #ScreenA h1 {
+        color:white;
+        text-shadow: 3px 3px black;
+        position: relative;
+        top:35%;
+        margin-left: 35%;
+        font-size: 100px;
+    }
+
+    #ScreenB {
+        background-color: lightslategrey;
+        top:100%;
+    }
+
+        #ScreenB {
+            line-height: 3em;
+        }
+        
+        #TEXTBOLD {
+            color:white;
+            font-size: 36px;
+        }
+
+    #ScreenC {
+        background-image: url("../../_Content/4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y:25%;
+        top:200%;
+    }
+
+        #IMG1 {
+            border-radius: 25px;
+            height:70%;
+            width:60%;
+            position: relative;
+            top:30%;
+
+        }
+
+        #LINK {
+            text-shadow: 3px 3px black;
+            color:white;
+            font-size: 10em;
+            position: absolute;
+            top:25%;
+            left:25%;
+            text-align: center;
+        }
+
+        #LINK:hover {
+            text-shadow: 13px 13px black;
+        }
+
+    #ScreenD {
+        background-color: whitesmoke;
+        top:300%;
+    }
+
+        .form {
+            top:-10%;
+            position: relative;
+            margin-left: 21%;
+            width:40%;
+            padding: 5%;
+            margin-bottom: 8%;
+        }
+
+        #form {
+            
+            display: block;
+        }
+    #Footer {
+        background-color: slategray;
+        top:400%;
+    }
